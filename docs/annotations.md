@@ -1,4 +1,4 @@
-## Spring Boot Annotations
+# About Annotations
 Annotations can be thought of as metadata which provides information and guidance about the source code for our Spring boot application.  
 
 #### @SpringBootApplication
