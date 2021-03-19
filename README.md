@@ -16,7 +16,18 @@ public class ScanBeans {
   // code here...  
 }
 
-@Bean
+#### @Configuration
+- A class-level annotation. 
+- Tells spring that the class is to be used as a source of bean definitions. 
+
+>@Configuration  
+public class Car {
+	@BeanSportCar fast() {  
+		return new SportCar();  
+	}  
+}  
+
+#### @Bean
 - A method-level annotation.
 - Tells spring that method returns a bean which is managed by the container. 
 
@@ -24,4 +35,21 @@ public class ScanBeans {
 public JavaBeanObject getBeanExample() {  
   return new JavaBeanObject();  
 }  
+
+#### @Component
+- A class-level annotation. 
+- Found during classpath and will be picked up and configured in application as a bean. 
+
+>@Component  
+public class SportCar {  
+	private Car car;  
+	@Autowired  
+	public SportCar(Car car) {   
+		this.car=car;  
+	}  
+}  
+
+#### @Autowired
+- Used to autowire a bean with setter methods, instance variable and constructor. 
+- Spring container will try to match bean by matching datatypes. 
 
