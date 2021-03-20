@@ -24,6 +24,7 @@ spring.mail.password=pass@123
 # Application Details
 spring.application.name=Cars
 ```
+
 ### Spring Boot Property Categories
 1. Server
 2. Security
