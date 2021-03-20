@@ -27,3 +27,17 @@ How does mapping works?
 
 ### Spring Data JPA 
 Spring Data JPA is a Spring implementation using underlying JPA in Java (provided by oracle). 
+
+Instead of having to implement the relationship classes for persistence, Spring Data JPA saves us this work. 
+
+Three main features:
+- No code repository. 
+- Provides default implementation for each method so no need for read / write operations. 
+- Generated queries based on method name (i.e. findBy prefix used for method named findByName(String name)).
+
+Example:
+```java:
+public interface EmployeeRepo extends CrudRepository<Employee, Integer> {
+    public Employee findById(long id);
+}
+```
