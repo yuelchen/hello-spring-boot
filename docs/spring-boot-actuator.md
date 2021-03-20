@@ -6,7 +6,7 @@ The Spring Boot actuator is a production ready package that can be imported to h
 1. Endpoints
    - Spring Boot provides a number of built-in endpoints; you can specify your own as well. 
    - These endpoints can be monitored and managed by the application. 
-   - Popularily, many incorporate actuators through HTTP requests by specifying the Id of an endpoint and a mapped URL in a controller. 
+   - Popularily, many incorporate actuators through HTTP requests by specifying the Id of an endpoint and a mapped URL in a controller (i.e. /actuator/health). 
 
 2. Metrics
    - Spring Boot is integrated with micrometer which provides metrics for you application. 
