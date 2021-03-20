@@ -35,7 +35,8 @@ Instead of having to implement the relationship classes for persistence, Spring 
 Example (EmployeeRepo):
 ```java:
 /* The EmployeeRepo class extends to CrudRepository which is a Spring Data JPA class. 
- * The CrudRepository offers standard CREATE, READ, UPDATE and DELETE operations beased off method names findOne(), findAll(), save() and delete(). 
+ * The CrudRepository offers standard CREATE, READ, UPDATE and DELETE operations 
+ * based off method names findOne(), findAll(), save() and delete(). 
  * 
  * We've defined two generics, where Employee is the entity and Integer is the data type for primary key. 
  * As for the method, Spring will internally generate a query (JPQL) based on the method name we've defined in the interface. 
