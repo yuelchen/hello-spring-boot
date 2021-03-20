@@ -32,7 +32,16 @@ Instead of having to implement the relationship classes for persistence, Spring 
 - Provides default implementation for each method so no need for read / write operations. 
 - Generated queries based on method name (i.e. findBy prefix used for method named findByName(String name)).
 
-Example (EmployeeRepo):
+#### Example (Maven Dependency):
+```
+<dependency>  
+    <groupId>org.springframework.data</groupId>  
+    <artifactId>spring-data-jpa</artifactId>  
+    <version>2.3.4.RELEASE</version>  
+</dependency>  
+```
+
+#### Example (EmployeeRepo):
 ```java:
 /* The EmployeeRepo class extends to CrudRepository which is a Spring Data JPA class. 
  * The CrudRepository offers standard CREATE, READ, UPDATE and DELETE operations 
@@ -57,3 +66,11 @@ public interface EmployeeRepo extends CrudRepository<Employee, Integer> {
 3. JpaRepository
   - Extends both the CrudRepository and PagingAndSortingRepository. 
   - Adds additional JPA-specific methods such as flush() - triggers the flush on persistence context.
+
+#### What we need to handle for JPA with Spring?
+1. Entity Manager
+  - Will handle all interactions with the database once mapping is defined. 
+2. JPQL (Java Persistence Query Language)
+  - Write additional conditions for queries if needed (JPQL will already understanding the entity through mapping).  
+3. Criteria API
+  - Define Java-based API to execute queries against database. 
