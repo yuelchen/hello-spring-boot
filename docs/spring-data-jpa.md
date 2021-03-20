@@ -59,18 +59,18 @@ public interface EmployeeRepo extends CrudRepository<Employee, Integer> {
 
 #### Types of Spring Data Repository:
 1. CrudRepository
-  - Offers standard operations such as CREATE, READ, UPDATE and DELETE. 
-  - Methods are mapped based off naming convention, such as findOne(), findAll(), save(), delete() and etc.
+   - Offers standard operations such as CREATE, READ, UPDATE and DELETE. 
+   - Methods are mapped based off naming convention, such as findOne(), findAll(), save(), delete() and etc.
 2. PagingAndSortingRepository
-  - Extends to CrudRepository and adds to findAll() functionality - allowing us to paginate results.   
+   - Extends to CrudRepository and adds to findAll() functionality - allowing us to paginate results.   
 3. JpaRepository
-  - Extends both the CrudRepository and PagingAndSortingRepository. 
-  - Adds additional JPA-specific methods such as flush() - triggers the flush on persistence context.
+   - Extends both the CrudRepository and PagingAndSortingRepository. 
+   - Adds additional JPA-specific methods such as flush() - triggers the flush on persistence context.
 
 #### What we need to handle for JPA with Spring?
 1. Entity Manager
-  - Will handle all interactions with the database once mapping is defined. 
+   - Will handle all interactions with the database once mapping is defined. 
 2. JPQL (Java Persistence Query Language)
-  - Write additional conditions for queries if needed (JPQL will already understanding the entity through mapping).  
+   - Write additional conditions for queries if needed (JPQL will already understanding the entity through mapping).  
 3. Criteria API
-  - Define Java-based API to execute queries against database. 
+   - Define Java-based API to execute queries against database. 
