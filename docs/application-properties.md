@@ -10,7 +10,42 @@ We can also use this file to drive our own custom properties (if we wanted to).
 
 Note: To comment in application.properties, simply prefix it with the '#' symbol. 
 
-### Spring Boot Properties with Default Values
+### Example: application.properties:
+```
+# Server Details
+server.port=8081
+
+# SMTP Details
+spring.mail.host=smtp-development.gmail.com
+spring.mail.port=465
+spring.mail.username=development
+spring.mail.password=pass@123
+
+# Application Details
+spring.application.name=Cars
+```
+### Spring Boot Property Categories
+1. Server
+2. Security
+3. Web
+4. Mail
+5. Core
+6. Cache
+7. JSON
+8. Data
+9. Data Migration
+10. Integration
+11. Transaction
+12. RSocket
+13. Actuator
+14. Templating
+15. DevTools
+16. Testing
+
+### See Full List of Spring Boot Properties for each Category:
+https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
+
+### Spring Boot Properties with Default Values [Not Complete List]
 | Property Name | Default Value | Short Description |
 |---|---|---|
 | Debug | false | Used to enable debug logs. |
@@ -31,7 +66,7 @@ Note: To comment in application.properties, simply prefix it with the '#' symbol
 | spring.security.filter.dispatcher-type | asyn, error, request | The dispatcher types for security filter chain. |
 | spring.security.filter.order | -100 | The order for security filter chain. |
 
-### Spring Boot Properties without Default Values
+### Spring Boot Properties without Default Values [Not Complete List]
 | Property Name | Short Description |
 |---|---|
 | spring.application.name | Used to set the application name. |
@@ -59,17 +94,3 @@ Note: To comment in application.properties, simply prefix it with the '#' symbol
 | spring.security.oauth2.client.registration.* | OAuth client registration details. |
 | spring.security.oauth2.client.provider.* | OAuth provider details. |
 
-Example of an application.properties:
-```
-# Server Details
-server.port=8081
-
-# SMTP Details
-spring.mail.host=smtp-development.gmail.com
-spring.mail.port=465
-spring.mail.username=development
-spring.mail.password=pass@123
-
-# Application Details
-spring.application.name=Cars
-```
