@@ -1,4 +1,4 @@
-# about application.properties
+# About application.properties
 
 Spring Boot has a built-in configuration file called application.properties. 
 
@@ -9,21 +9,6 @@ This properties file comes with some default values (whether or not they are def
 We can also use this file to drive our own custom properties (if we wanted to). 
 
 *Note: To comment in application.properties, simply prefix it with the '#' symbol.*
-
-### Example: application.properties:
-```
-# Server Details
-server.port=8081
-
-# SMTP Details
-spring.mail.host=smtp-development.gmail.com
-spring.mail.port=465
-spring.mail.username=development
-spring.mail.password=pass@123
-
-# Application Details
-spring.application.name=Cars
-```
 
 ### Spring Boot Property Categories
 1. Server
@@ -45,3 +30,18 @@ spring.application.name=Cars
 
 ### See Full List of Spring Boot Properties for each Category:
 https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
+
+### Example: application.properties:
+```
+# Server Details
+server.port=8081
+
+# SMTP Details
+spring.mail.host=smtp-development.gmail.com
+spring.mail.port=465
+spring.mail.username=development
+spring.mail.password=pass@123
+
+# Application Details
+spring.application.name=Cars
+```
