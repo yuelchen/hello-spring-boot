@@ -43,3 +43,21 @@ The Spring Boot actuator is a production ready package that can be imported to h
 | jolokia | Used to expose JMX beans over HTTP. | True |
 | logfile | Used to return the contents of the log file. | True |
 | prometheus | Used to expose metrics in a format that can be taken into Prometheus server - requires micrometer-registry-prometheus dependency. | True |
+
+### Example (Maven Dependency):
+```:
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+    <version>2.3.4.RELEASE</version>
+</dependency>
+```
+
+### Example (application.properties):
+```:
+management.security.enabled=true  
+management.security.roles=ADMIN  
+security.basic.enabled=true  
+security.user.name=admin  
+security.user.passowrd=password  
+```
