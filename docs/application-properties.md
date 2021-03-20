@@ -8,6 +8,8 @@ This properties file comes with some default values (whether or not they are def
 
 We can also use this file to drive our own custom properties (if we wanted to). 
 
+Note: To comment in application.properties, simply prefix it with the '#' symbol. 
+
 ### Spring Boot Properties with Default Values
 | Property Name | Default Value | Short Description |
 |---|---|---|
@@ -57,4 +59,17 @@ We can also use this file to drive our own custom properties (if we wanted to).
 | spring.security.oauth2.client.registration.* | OAuth client registration details. |
 | spring.security.oauth2.client.provider.* | OAuth provider details. |
 
+Example of an application.properties:
+```
+# Server Details
+server.port=8081
 
+# SMTP Details
+spring.mail.host=smtp-development.gmail.com
+spring.mail.port=465
+spring.mail.username=development
+spring.mail.password=pass@123
+
+# Application Details
+spring.application.name=Cars
+```
