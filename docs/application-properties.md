@@ -31,6 +31,7 @@ We can also use this file to drive our own custom properties (if we wanted to).
 
 ### Spring Boot Properties without Default Values
 | Property Name | Short Description |
+|---|---|
 | spring.application.name | Used to set the application name. |
 | spring.application.index | Used to set the application index. |
 | spring.config.location | Used to determine the location for configuration file. |
