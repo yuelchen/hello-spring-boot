@@ -36,7 +36,7 @@ Example (EmployeeRepo):
 ```java:
 /* The EmployeeRepo class extends to CrudRepository which is a Spring Data JPA class. 
  * The CrudRepository offers standard CREATE, READ, UPDATE and DELETE operations 
- * based off method names findOne(), findAll(), save() and delete(). 
+ * based off method names like findOne(), findAll(), save(), delete(), and etc. 
  * 
  * We've defined two generics, where Employee is the entity and Integer is the data type for primary key. 
  * As for the method, Spring will internally generate a query (JPQL) based on the method name we've defined in the interface. 
@@ -47,3 +47,13 @@ public interface EmployeeRepo extends CrudRepository<Employee, Integer> {
     public Employee findById(long id);
 }
 ```
+
+#### Types of Spring Data Repository:
+1. CrudRepository
+  - Offers standard operations such as CREATE, READ, UPDATE and DELETE. 
+  - Methods are mapped based off naming convention, such as findOne(), findAll(), save(), delete() and etc.
+2. PagingAndSortingRepository
+  - Extends to CrudRepository and adds to findAll() functionality - allowing us to paginate results.   
+3. JpaRepository
+  - Extends both the CrudRepository and PagingAndSortingRepository. 
+  - Adds additional JPA-specific methods such as flush() - triggers the flush on persistence context.
