@@ -33,10 +33,10 @@ Instead of having to implement the relationship classes for persistence, Spring 
 - Generated queries based on method name (i.e. findBy prefix used for method named findByName(String name)).
 
 #### Example (Maven Dependency):
-```
+```:
 <dependency>  
-    <groupId>org.springframework.data</groupId>  
-    <artifactId>spring-data-jpa</artifactId>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-data-jpa</artifactId>  
     <version>2.3.4.RELEASE</version>  
 </dependency>  
 ```
