@@ -18,7 +18,7 @@ Take for example that you are instructed to build a new web application.
 - You need a REST API which will trigger some business logic to consume data from 'x' number of sources, process and publish to a database. 
 - This data should be viewable from the UI. 
 
-You could choose to create your own Java classes to handle everything from security, session handling, HTTP servlet classes, JPA implementation and etc. Alternatively, you can simply import certain classes such as Spring Security, Spring Web Application, Spring Data JPA, Spring JDBC and etc. Then simply leverage these packages to create your services. Don't worry if you can't see the difference now, we've got plenty of runnable projects in this repository for you to download and review. 
+You could choose to create your own Java classes to handle everything from security, session handling, HTTP servlet classes, JPA implementation and etc. Alternatively, you can simply import certain dependencies such as Spring Security, Spring Web Application, Spring Data JPA, Spring JDBC and etc. Then simply leverage these packages to create your services. Don't worry if you can't see the difference now, we've got plenty of runnable projects in this repository for you to download and review. 
 
 ## Repository Overview
 ### Documentation (docs/)
