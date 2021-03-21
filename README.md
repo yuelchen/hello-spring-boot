@@ -21,15 +21,16 @@ Take for example that you are instructed to build a new web application.
 You could choose to create your own Java classes to handle everything from security, session handling, HTTP servlet classes, JPA implementation and etc. Alternatively, you can simply import certain classes such as Spring Security, Spring Web Application, Spring Data JPA, Spring JDBC and etc. Then simply leverage these packages to create your services. Don't worry if you can't see the difference now, we've got plenty of runnable projects in this repository for you to download and review. 
 
 ## Repository Overview
-#### Documentation (docs/)
+### Documentation (docs/)
 \[[About Annotations](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/annotations.md)\]
 \[[About Spring Starters](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starters.md)\] 
 \[[About application.properties](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/application-properties.md)\] 
 \[[Spring Data JPA](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-data-jpa.md)\] 
 \[[Spring Actuator](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-actuator.md)\] 
 
-#### [spring-boot-data-jpa-demo]()
+### Projects
+#### [spring-boot-data-jpa-demo]()/
 A demo for using spring boot data jpa and h2 database for verifying data persistence. 
 
-#### [spring-boot-actuator-demo]()
+#### [spring-boot-actuator-demo]()/
 A demo for using actuator endpoints and viewing status of application by providing URL. 
