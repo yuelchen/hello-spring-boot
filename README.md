@@ -25,8 +25,9 @@ You could choose to create your own Java classes to handle everything from secur
 \[[About Annotations](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/annotations.md)\]
 \[[About Spring Starters](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starters.md)\] 
 \[[About application.properties](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/application-properties.md)\] 
-\[[Spring Data JPA](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-data-jpa.md)\] 
-\[[Spring Actuator](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-actuator.md)\] 
+\[[Spring Test](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-test.md)\]
+\[[Spring Actuator](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-actuator.md)\] 
+\[[Spring Data JPA](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-data-jpa.md)\] 
 
 ### Projects
 #### [spring-boot-data-jpa-demo]()/
