@@ -92,34 +92,34 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 </plugins>
 </build>
 
-<!-- Parent Dependency -->
-<parent>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-parent</artifactId>
-<version>2.4.4</version>
-<relativePath/>
-</parent>
+  <!-- Parent Dependency -->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.4.4</version>
+    <relativePath/>
+  </parent>
 
-<dependencies>
-<!-- Spring Boot Starter for Web Application -->
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-web</artifactId>
-</dependency>
+  <dependencies>
+    <!-- Spring Boot Starter for Web Application -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
 
-<!-- Spring Boot Starter Thymeleaf -->
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-tomcat</artifactId>
-<scope>provided</scope>  
-</dependency>
+    <!-- Spring Boot Starter Thymeleaf -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-tomcat</artifactId>
+      <scope>provided</scope>  
+    </dependency>
 
-<!-- Spring Boot Starter for Testing -->
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-test</artifactId>
-<scope>test</scope>
-</dependency>
-</dependencies>
+    <!-- Spring Boot Starter for Testing -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
 ```
