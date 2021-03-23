@@ -60,37 +60,37 @@ public class Application extends SpringBootServletInitializer {
 ```xml:
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-<modelVersion>4.0.0</modelVersion>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
-<!-- Project Information -->
-<groupId>com.yuelchen</groupId>
-<artifactId>spring-boot-tomcat-demo</artifactId>
-<version>0.0.1-SNAPSHOT</version>
-<name>spring-boot-tomcat-demo</name>
-<description>Demo project for Spring Boot Tomcat.</description>
+  <!-- Project Information -->
+  <groupId>com.yuelchen</groupId>
+  <artifactId>spring-boot-tomcat-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>spring-boot-tomcat-demo</name>
+  <description>Demo project for Spring Boot Tomcat.</description>
 
-<!-- Packaging Format-->
-<packaging>war</packaging> 
+  <!-- Packaging Format-->
+  <packaging>war</packaging> 
 
-<!-- Project Java Version -->
-<properties>
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
-<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>  
-<java.version>13</java.version>
-<tomcat.version>8.0.3</tomcat.version>
-</properties>
+  <!-- Project Java Version -->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>  
+    <java.version>13</java.version>
+    <tomcat.version>8.0.3</tomcat.version>
+  </properties>
 
-<!-- Project Build Information -->
-<build>
-<finalName>web-application</finalName>
-<plugins>
-<plugin>
+  <!-- Project Build Information -->
+  <build>
+    <finalName>web-application</finalName>
+    <plugins>
+      <plugin>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-maven-plugin</artifactId>
-</plugin>
-</plugins>
-</build>
+      </plugin>
+    </plugins>
+  </build>
 
   <!-- Parent Dependency -->
   <parent>
