@@ -1,5 +1,9 @@
 # Deploying to Tomcat
 
+### What is Tomcat?
+Tomcat is an application server solution developed by Apache that executes Java servlets and loads the application Web pages. 
+
+### How do we deploy a Tomcat application with Spring Boot?
 We will need to create a SpringBoot WAR (Web Application Resource or Web application ARchive).
 
 Requirments to configure application for WAR file:
