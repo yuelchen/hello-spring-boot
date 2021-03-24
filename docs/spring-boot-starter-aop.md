@@ -54,3 +54,12 @@ These cross-cutting classes are called aspect in AOP.
 | Pointcut | Method Signature | 
 | Advice | Method Body |
 | Waver | Compiler |
+
+### Example (Maven Dependency):
+```xml:
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-aop</artifactId>
+  <version>2.4.4</version>
+</dependency>
+```
