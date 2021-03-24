@@ -4,7 +4,7 @@
 Tomcat is an application server solution developed by Apache that executes Java servlets and loads the application Web pages. 
 
 ### How do we deploy a Tomcat application with Spring Boot?
-We will need to create a SpringBoot WAR (Web Application Resource or Web application ARchive).
+We will need to create a SpringBoot WAR (Web Application Resource or Web application ARchive).  
 
 Requirments to configure application for WAR file:
 1. Create a class which extends to SpringBootServletInitializer in the _**main**_ class:
@@ -35,19 +35,19 @@ protected SpringApplicationBuilder configure(SpringApplicationBuilder applicatio
   <artifactId>spring-boot-starter-tomcat</artifactId>  
   <scope>provided</scope>  
 </dependency>    
-```
+```  
 
 4. Update our packaging to a be a WAR file (by default, it's a jar). 
 ```xml:
 <packaging>war</packaging>  
-```
+```  
 
 5. (Optional) We can update the final name of the project.
 ```xml:
 <finalName>web-application</finalName>  
-```
+```  
 
-### Build You project - WAR File
+### Build You project - WAR File  
 Build your project and you should see a WAR file in your target directory folder. 
 ```:
 spring-boot-tomcat-demo-0.0.1-SNAPSHOT.war
