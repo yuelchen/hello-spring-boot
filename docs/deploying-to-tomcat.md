@@ -47,6 +47,22 @@ protected SpringApplicationBuilder configure(SpringApplicationBuilder applicatio
 <finalName>web-application</finalName>  
 ```
 
+### Build You project - WAR File
+Build your project and you should see a WAR file in your target directory folder. 
+```:
+spring-boot-tomcat-demo-0.0.1-SNAPSHOT.war
+```
+
+Once you have the WAR file, on your Apache Tomcat Server, put this file under webapps. 
+```:
+C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps
+```
+
+Once the WAR file is placed, startup the tomcat server and this will deploy the WAR file. 
+```:
+C:\Program Files\Apache Software Foundation\Tomcat 8.0\bin\startup
+```
+
 ### Example (Application.java):
 ```java:
 public class Application extends SpringBootServletInitializer { 
