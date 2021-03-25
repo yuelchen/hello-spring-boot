@@ -74,3 +74,11 @@ public interface EmployeeRepo extends CrudRepository<Employee, Integer> {
    - Write additional conditions for queries if needed (JPQL will already understanding the entity through mapping).  
 3. Criteria API
    - Define Java-based API to execute queries against database. 
+
+#### CRUD Operations to HTTP / REST API
+| Operation | HTTP Method | SQL Statement | RESTful Web API |
+| --- | --- | --- | --- |
+| Create | POST & PUT | INSERT | POST |
+| Read | GET | SELECT | GET |
+| Update | PUT, POST & PATCH | UPDATE | PUT |
+| Delete | DELETE| DELETE | DELETE |
