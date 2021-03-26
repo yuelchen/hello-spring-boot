@@ -37,6 +37,18 @@ We need to do two things:
 ### When should we use / enable caching?
 We should limit the ability for caching to method invocations whose results or response doesn't change often. Take into consideration READ queries from a database, where the data field being returned doesn't change (i.e. a user's birth date). The reason you only want to do this for infrequently updated data is to keep your responses as fresh as possible, all the while minimizing the amount of queries or request to your underlying database. This will give better performance for all users while providing the most update responses. 
 
+### How does this differ from a buffer?
+A buffer also stores data temporarily but specifically for writing (i.e. to another location) - not reading. 
+Note: TTL means Time To Live. 
+
+| Caching | Buffering |
+| --- | --- |
+| Improves READ performance. | Improves WRITE performance. |
+| We read from cache. | We write into buffer. |
+| TTL is typically long. | TTL is typically short. |
+| Based off recently used. | Based off FIFO. |
+| Stores actual data file. | Stores the data file metadata. |
+
 ### Example (Maven Dependency)
 ```xml:
 <dependency>
