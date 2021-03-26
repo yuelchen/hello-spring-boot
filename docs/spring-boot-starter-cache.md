@@ -38,8 +38,8 @@ We need to do two things:
 We should limit the ability for caching to method invocations whose results or response doesn't change often. Take into consideration READ queries from a database, where the data field being returned doesn't change (i.e. a user's birth date). The reason you only want to do this for infrequently updated data is to keep your responses as fresh as possible, all the while minimizing the amount of queries or request to your underlying database. This will give better performance for all users while providing the most update responses. 
 
 ### How does this differ from a buffer?
-A buffer also stores data temporarily but specifically for writing (i.e. to another location) - not reading. 
-Note: TTL means Time To Live. 
+A buffer also stores data temporarily but specifically for writing (i.e. to another location) - not reading.   
+_Note: TTL means Time To Live._
 
 | Caching | Buffering |
 | --- | --- |
