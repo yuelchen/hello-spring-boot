@@ -2,6 +2,27 @@
 
 Caching is a mechanism or functionality where recently data is stored in memory (RAM) for a pre-defined time, so any subsequent calls for the same information can be immediately returned without having to query or await for a response from endpoint (i.e. database). This helps limit the number of database queries and speeds up more critical and fresh queries. Cached data is temporary and will expire after the pre-defined time (or when an application shuts down - whichever occurs first). Once the cache data has expired, the next call will hit the endpoint. 
 
+### Types of Caching
+- In-memory Caching
+  - Caching that increase performance of an application. 
+  - Most commonly associated to caching. 
+  - Done by storing key-value pairs between the application and database. 
+  - Popular software / approaches include Memcached and Redis.  
+
+- Database Caching
+  - Caching that improves scalability and preformance by distributing query workloads.  
+  - Typically involves multiple components (i.e. clients, web-app server and database). 
+  - Done to generate web pages dynamically by fetching required data from a database. 
+  - Popular software / approaches include Hibernate.
+  
+- Web Server Caching
+  - Caching that prevents application server from being overloaded and increase web page delivery speed / potential work that the backend may need to do.  
+  - Done by storing data for reuse after the first request; subsequent requests of the same will serve the saved data.  
+  
+- Content Delivery Network (CDN) Caching
+  - Caching that improves the delivery of the content by replicating commonly request files across multiple servers (i.e. HTML and CSS files). 
+  - These multiple servers are known as cache edge and will serve request that are geographically close to the server location. 
+
 ### How does this look like in an Spring Boot application?
 1. Method invocation occurs. 
 2. Cached results are checked to match against method invocation. 
