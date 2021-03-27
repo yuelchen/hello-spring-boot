@@ -23,15 +23,38 @@ You could choose to create your own Java classes to handle everything from secur
 ## Repository Overview
 ### Documentation (docs/)
 \[[About Annotations](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/annotations.md)\]
-\[[About Spring Starters](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starters.md)\] 
 \[[About application.properties](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/application-properties.md)\] 
-\[[Spring Test](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-test.md)\]
-\[[Spring Actuator](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-actuator.md)\] 
-\[[Spring Data JPA](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-data-jpa.md)\] 
+\[[About Spring Boot Starters](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starters.md)\] 
+\[[Spring Boot Thymeleaf](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-thymeleaf.md)\]
+\[[Spring Boot Cache](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-cache.md)\]
+\[[Spring Boot Data - JPA](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-data-jpa.md)\] 
+\[[Spring Boot AOP](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-aop.md)\]
+\[[Spring Boot Test](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-test.md)\]
+\[[Spring Boot Actuator](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-starter-actuator.md)\] 
+\[[Spring Boot DevTools](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/spring-boot-devtools.md)\]
+\[[Deploying to Tomcat](https://github.com/yuelchen/learn-spring-boot/blob/main/docs/deploying-to-tomcat.md)\]
 
 ### Projects
-#### [spring-boot-data-jpa-demo]()/
+#### [spring-boot-actuator-demo](https://github.com/yuelchen/learn-spring-boot/tree/main/spring-boot-actuator-demo)/
+A demo for using actuator endpoints and viewing status of application by providing URL.
+
+#### [spring-boot-aop-demo](https://github.com/yuelchen/learn-spring-boot/tree/main/spring-boot-aop-demo)/
+A demo for using spring boot aop - aspect oriented programming. 
+
+#### [spring-boot-cache-demo](https://github.com/yuelchen/learn-spring-boot/tree/main/spring-boot-cache-demo)/
+A demo for using spring boot cache to increase application performance for redundant calls. 
+
+#### [spring-boot-data-jpa-demo](https://github.com/yuelchen/learn-spring-boot/tree/main/spring-boot-data-jpa-demo)/
 A demo for using spring boot data jpa and h2 database for verifying data persistence. 
 
-#### [spring-boot-actuator-demo]()/
-A demo for using actuator endpoints and viewing status of application by providing URL. 
+#### [spring-boot-devtools-demo](https://github.com/yuelchen/learn-spring-boot/tree/main/spring-boot-devtools-demo)/
+A demo for using spring boot dev tools to automatically enforce updates without restarting. 
+
+#### [spring-boot-test-demo](https://github.com/yuelchen/learn-spring-boot/tree/main/spring-boot-test-demo)/
+A demo for using spring boot test to ensure application functions as expected (i.e. junit). 
+
+#### [spring-boot-thymeleaf-demo](https://github.com/yuelchen/learn-spring-boot/tree/main/spring-boot-thymeleaf-demo)/
+A demo for using spring boot thymeleaf for templating web pages to render our application dynamically. 
+
+#### [spring-boot-tomcat-demo](https://github.com/yuelchen/learn-spring-boot/tree/main/spring-boot-tomcat-demo)/
+A demo for using spring boot to develop application and deployable to Tomcat server. 
