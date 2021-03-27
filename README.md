@@ -6,9 +6,9 @@ If you found this work to be helpful and would like support me, please consider 
 
 ## Noteworthy Mentions
 You will also find documentation which was created based off a number of sources, such as:  
-💎 [spring.io](https://spring.io/projects/spring-framework) - free  
-💎 [javatpoint.com](https://www.javatpoint.com/spring-boot-tutorial) - free  
-💎 [baeldung.com](https://www.baeldung.com/spring-boot) - free  
+💎 [spring.io](https://spring.io/projects/spring-framework) - free content   
+💎 [javatpoint.com](https://www.javatpoint.com/spring-boot-tutorial) - free content   
+💎 [baeldung.com](https://www.baeldung.com/spring-boot) - free content   
 
 ## About Spring (in my words)
 👉 Spring Boot is a powerful framework that includes a number of robust libraries that developers can use to deliever business requirements quickly; these libraries can be quickly imported via Maven or Gradle.   
