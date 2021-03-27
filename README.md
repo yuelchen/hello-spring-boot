@@ -2,7 +2,7 @@
 This repository is a collection of Spring Boot (demo) applications for the sole purpose of learning how to use the Spring Boot framework.  
 
 ## 👋 Hello 👋
-If you found this work to be helpful and would like support me, please consider buying a [☕ ko-fi](https://ko-fi.com/yuelchen) :)
+If you found this work to be helpful and would like support me, please consider getting me a [☕ ko-fi](https://ko-fi.com/yuelchen) :)
 
 ## Noteworthy Mentions
 You will also find documentation which was created based off a number of sources, such as:  
