@@ -1,4 +1,4 @@
-# Intro to Sping Boot Starter
+# Hello Spring Boot Starter
 This repository is a collection of Spring Boot (demo) applications for the sole purpose of learning how to use the Spring Boot framework.  
 
 ## 👋 Hello 👋
